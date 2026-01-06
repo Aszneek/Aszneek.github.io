@@ -1036,6 +1036,14 @@ section,
   left: calc(50% - 20px);
 }
 
+.testimonials .testimonial-item:hover .title a:hover {
+  color: var(--accent-color);
+}
+
+.testimonials .testimonial-item:hover .icon {
+  background: var(--surface-color);
+}
+
 .testimonials .swiper-wrapper {
   height: auto;
 }
